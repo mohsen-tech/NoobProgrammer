@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\m.joon\Desktop\sin x\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Users\m.joon\Desktop\sin x\Sin x.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+D:\APP\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\APP\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\APP\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+D:\APP\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Users\m.joon\Desktop\sin x\Sin x.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\APP\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\APP\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\APP\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\APP\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Users\m.joon\Desktop\sin x\Sin x.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=sin x
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=sin x
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|sin x]
+Icon1="Sin x.EXE"
+Title1=sin x
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Users\m.joon\Desktop\sin x\Package
+ProjectFolder=C:\Users\m.joon\Desktop\sin x
+ServerSideCab=
+File1=C:\Users\m.joon\Desktop\sin x\Package\setup.exe
+File2=C:\Users\m.joon\Desktop\sin x\Package\Setup.Lst
+File3=C:\Users\m.joon\Desktop\sin x\Package\Sin x.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

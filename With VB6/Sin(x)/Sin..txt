@@ -1,0 +1,8 @@
+Private Sub Command1_Click()
+Dim a, b, c As Double
+a = Val(Text1.Text)
+b = a * 3.1415926536 / 180
+c = Sin(b)
+Label2.Caption = Str(c)
+
+End Sub
